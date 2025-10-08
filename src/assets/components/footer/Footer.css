@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@400;500;600');
+
+.footer {
+  background: #000000;
+  color: #ffffff;
+  padding: 20px 0 0 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer h6{
+  font-weight: bold;
+}
+
+.footer h5{
+  font-weight: bold;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 90px 20px 90px;
+
+}
+
+.logo{
+  height: 70px;
+}
+
+.footer div {
+  margin: 10px 0;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 10px;
+  color: #000000;
+  background-color: #efd8bd;
+  padding: 2px 0 1px;
+  margin-bottom: -10px !important;
+}

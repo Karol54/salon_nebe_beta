@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@400;500;600');
+
+.navbar {
+  background-color: #000000 !important;
+  padding: 20px 10px !important;
+}
+
+.navbar-brand .logo{
+  height: 100px;
+  margin-left: 50px;
+}
+
+.navbar-collapse{
+  margin-right: 50px;
+}
+
+.nav-link{
+    color: #ffffff !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 20px;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #efd8bd !important;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: #000000 !important;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+
+

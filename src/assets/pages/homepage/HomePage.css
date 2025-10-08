@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@400;500;600');
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+  background: #ffffff;
+}
+
+.hero-text {
+  max-width: 47%;
+  margin-left: 20px;
+}
+
+.hero-text h1 {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000;  
+}
+
+.hero-text p:first-of-type {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.btn-outline-dark {
+  background-color: #000000 !important;
+  color: #fff !important;
+  border: none !important;
+  text-align: center;
+  margin-top: 10px;
+  padding: 11px;
+  width: 150px;
+}
+
+.btn-outline-dark:hover {
+  background-color: #efd8bd !important;
+  color: #000 !important;
+}
+
+.hero .carousel {
+  max-width: 50%;
+  margin-top: -5px;
+  padding-right: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero .carousel-inner,
+.hero .carousel-item,
+.hero .carousel-item img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hero .carousel-inner {
+  padding: 0;
+}
+
+.hero .carousel img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 0;
+  transition: opacity 0.4s ease;
+}
+
+.line {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.services-section {
+  padding: 40px 30px;
+  text-align: center;
+  background-color: #85858511;
+  margin-bottom: 70px;
+}
+
+.services-section h3{
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.service {
+  background: #efd8bd38;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px #0000001a;
+  margin: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.service:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 6px 12px #00000030;
+}
+
+.manikura {
+  height: 100px;
+}
+
+.pedikura {
+  height: 70px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.kosmeticke_sluzby {
+  height: 120px;
+}
+
+.text-bottom {
+  margin-top: 30px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text,
+  .hero img {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .hero .carousel img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .hero .carousel {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@400;500;600');
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-info h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contact-item .icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #4f4f4f;
+  margin-top: 2px;
+}
+
+.contact-left-text {
+  background-color: #efd8bd5c;
+  padding: 40px;
+  border-radius: 10px;
+  
+}
+
+.contact-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image iframe {
+  width: 100%;
+  height: 480px;
+  border-radius: 10px;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 50px;
+    gap: 30px;
+  }
+
+  .contact-left-text {
+    padding: 40px;
+    width: 500px;
+  }
+
+  .contact-image iframe {
+    width: 500px;
+    height: 500px;
+  }
+}
