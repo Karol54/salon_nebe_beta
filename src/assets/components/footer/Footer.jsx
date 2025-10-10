@@ -12,7 +12,7 @@ const Footer = () => {
                     <h5>Kontakty</h5>
                     <p>
                         <h6>Email:</h6>
-                        salka.sporinova@seznam.cz <br/>
+                        sarka.sporikova@seznam.cz <br/>
                         ccilscosmetics@gmail.com <br/>
                         <br></br>
                         <h6>Telefon:</h6>

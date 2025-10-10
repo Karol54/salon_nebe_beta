@@ -27,7 +27,7 @@ const HomePage = () => {
         <div className="hero-text" data-aos="fade-right">
           <h1 data-aos="fade-up" data-aos-delay="200">Salon Nebe</h1>
           <p data-aos="fade-up" data-aos-delay="300">
-            Rády vás přivítáme v našem salonu Nebe v Klimkovicích, kde se
+            Rády vás přivítáme v našem Salonu Nebe v Klimkovicích, kde se
             postaráme o vaši krásu a pohodu.
           </p>
           <p data-aos="fade-up" data-aos-delay="400">Rezervace na Notino:</p>
@@ -114,10 +114,9 @@ const HomePage = () => {
         </div>
 
         <p className="text-bottom" data-aos="fade-up" data-aos-delay="400">
-          Naším cílem je zajistit, abyste se u nás cítily uvolněně a spokojeně, a
-          odcházely s úsměvem a skvělým pocitem.
+          Naším cílem je zajistit, abyste se u nás cítily uvolněně a spokojeně. Chceme, abyste odcházely s úsměvem a skvělým pocitem.
           <br />
-          Těšíme se, že vás přivítáme a dopřejeme vám chvíle plné relaxace a péče.
+          Těšíme se, až vás přivítáme a dopřejeme vám chvíle plné relaxace a péče.
         </p>
       </section>
     </main>
