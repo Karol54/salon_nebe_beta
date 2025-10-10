@@ -116,7 +116,7 @@ const HomePage = () => {
         <p className="text-bottom" data-aos="fade-up" data-aos-delay="400">
           Naším cílem je zajistit, abyste se u nás cítily uvolněně a spokojeně. Chceme, abyste odcházely s úsměvem a skvělým pocitem.
           <br />
-          Těšíme se, až vás přivítáme a dopřejeme vám chvíle plné relaxace a péče.
+          Těšíme se, až vás přivítáme a dopřejeme vám chvíle plné relaxace.
         </p>
       </section>
     </main>
