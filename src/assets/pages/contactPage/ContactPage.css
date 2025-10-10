@@ -73,11 +73,11 @@ p {
 
   .contact-left-text {
     padding: 40px;
-    width: 400px;
+    width: 350px;
   }
 
   .contact-image iframe {
-    width: 400px;
+    width: 350px;
     height: 500px;
   }
 }
